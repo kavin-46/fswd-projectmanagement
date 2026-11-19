@@ -1,4 +1,4 @@
-const API = "http://localhost:5000";
+const API = "https://fswd-projectmanagement.onrender.com";
 
 let token = "";
 let tasks = [];
