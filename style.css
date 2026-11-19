@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f1f5f9;
+}
+
+.auth-container {
+    width: 360px;
+    margin: 100px auto;
+    padding: 35px;
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.auth-container h1 {
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+.auth-container h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    margin: 10px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+button {
+    padding: 11px 18px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.auth-container button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.auth-container p {
+    margin-top: 20px;
+}
+
+a {
+    color: #2563eb;
+    cursor: pointer;
+}
+
+header {
+    background: #1e293b;
+    color: white;
+    padding: 22px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+header button {
+    background: #ef4444;
+    margin-left: 15px;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    flex: 1;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #475569;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    color: #2563eb;
+    font-size: 30px;
+}
+
+.main-container {
+    margin: 0 30px 30px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main-container h2 {
+    margin-bottom: 20px;
+}
+
+.add-task {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 35px;
+}
+
+.add-task input {
+    flex: 1;
+}
+
+.add-task button {
+    margin-top: 10px;
+    height: 43px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+}
+
+th {
+    background: #1e293b;
+    color: white;
+}
+
+td select {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+td button {
+    background: #ef4444;
+}
+
+@media(max-width:750px) {
+
+    .stats {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        min-width: 40%;
+    }
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    .main-container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .auth-container {
+        width: 90%;
+    }
+}
